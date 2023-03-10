@@ -7,7 +7,7 @@ namespace StorageAccount.Repository
 {
     public class Queue
     {
-        static string connectionString="DefaultEndpointsProtocol=https;AccountName=renukastorage;AccountKey=aYcal+Ofx6atn/WzspehjsFQQtQDdkkrme+QSJXJErJ5eGRAcQeqDiQDvI6c6KQJQwwM1sP0G3PQ+AStR6bTTg==;EndpointSuffix=core.windows.net";
+        static string connectionString="DefaultEndpointsProtocol=https;AccountName=renukastorage;AccountKey=sMnwY5ey5A/0oT6tUCB3RD5a6GWZh8eKuaLEbhNCUsrd1e/jEl1RVi2bSHxMjtGgD/JbANMdj5rF+AStJ4eDzg==;EndpointSuffix=core.windows.net";
         public static async Task<bool> CreateQueue(string queueName)
         {
             if(string.IsNullOrEmpty(queueName))
